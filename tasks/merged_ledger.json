@@ -66,6 +66,21 @@
         }
       ],
       "notes": "Formalized ordered partition cell splitting (conservation, disjointness, cardinality) and cyclotomic extension rings with exact size theorem |Z/nZ(eps_m)| = n^m with 0 sorry, 0 admit."
+    },
+    {
+      "task_cid": "baguqeerabfmumkhx4awa3al6rthhculmjln7lhbwsw72b2elwll5rxyb2e5a",
+      "task_id": "GAP-0190",
+      "status": "verified",
+      "worker": "pCwOrM-relay",
+      "timestamp": "2026-10-04T00:00:00.000000+00:00",
+      "artifacts": [
+        {
+          "lean_module": "RequestProject.Gap.Library.Grpperm",
+          "sha256": "e10c740f09d709a0c8599c57777e83694c18d5b0a38ba67a9b8878b21bf6338f",
+          "note": "Port of lib/grpperm.gi (SizePermGroup, Group Order Product Formula)"
+        }
+      ],
+      "notes": "Formalized PermGroup structure, base maintenance, and proved the Crown Jewel theorem permGroup_order_eq_prod_basicOrbits establishing |G| = prod |Delta_i| with transversal factorization bijection, 0 sorry, 0 admit, passing lake build under standard axioms [propext, Quot.sound]."
     }
   ]
 }
