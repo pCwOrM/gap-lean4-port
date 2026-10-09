@@ -1,0 +1,46 @@
+{
+ "schema": "gokujo-check-telemetry/1",
+ "tool": "gokujo 1.0.0 (lean-worker), backend lake",
+ "lean": "4.28.0, nix-store 75c91mcn (gitrev v4.28.0)",
+ "mathlib": "8f9d9cff6bd via shared precompiled cache (dot_lake/packages symlinks)",
+ "project": "gap-lean4-port @ f2ab772 (GAP-0050/0299/0331/0332 checkProof bridge)",
+ "scan": {
+  "files": 8,
+  "declarations": 223,
+  "holes": 0
+ },
+ "graph": {
+  "order_len": 8,
+  "checked": true,
+  "cyclic": []
+ },
+ "build": {
+  "built": 8,
+  "cached": 0,
+  "failed": [],
+  "ok": true
+ },
+ "sorry": {
+  "holes": [],
+  "native": [],
+  "clean": true
+ },
+ "axioms": {
+  "audited": 100,
+  "allowed": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound",
+   "Lean.ofReduceBool",
+   "Lean.trustCompiler"
+  ],
+  "observed": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "violations": [],
+  "ok": true
+ },
+ "gate": "PASS (exit 0)"
+}
