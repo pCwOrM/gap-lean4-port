@@ -10,6 +10,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23045504.svg)](https://doi.org/10.5281/zenodo.23045504)
 [![Concept DOI](https://img.shields.io/badge/Concept_DOI-10.5281%2Fzenodo.23045503-blue.svg)](https://doi.org/10.5281/zenodo.23045503)
 [![Verification](https://img.shields.io/badge/Verification-35_Theorems_%7C_0_sorry_%7C_0_admit-brightgreen.svg)](https://github.com/pCwOrM/gap-lean4-port)
+[![gokujo gate](https://img.shields.io/badge/gokujo_gate-PASS_(exit_0)-brightgreen.svg)](telemetry/gokujo-check-2026-10-06.json)
 [![lean-worker](https://img.shields.io/badge/Worker-lean--worker-9cf.svg)](https://github.com/meta-introspector/lean-worker)
 [![aristotle-cli-rs](https://img.shields.io/badge/Orchestrator-aristotle--cli--rs-orange.svg)](https://github.com/meta-introspector/aristotle-cli-rs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -122,6 +123,10 @@ Every theorem in this repository has been audited with `#print axioms`:
 | `Zmodnze.lean` | `lib/zmodnze.gi` | 4 | **0** | **0** | `propext, Classical.choice, Quot.sound` |
 | `Zmodnz.lean` | `lib/zmodnz.gi` | 17 | **0** | **0** | `propext, Classical.choice, Quot.sound` |
 | **Total** | | **35** | **0** | **0** | Standard Lean 4 Core |
+
+> 🛡️ **Independent Telemetry Verification Gate ([PR #5](https://github.com/pCwOrM/gap-lean4-port/pull/5)):**  
+> Independently verified by Mike DuPont ([@jmikedupont2](https://github.com/jmikedupont2)) via `gokujo 1.0.0` (`lean-worker`), backend Lake with Nix-pinned Lean 4.28.0 (store `75c91mcn`).  
+> **Results:** 8/8 files built, 223 declarations scanned, 100 axioms audited, 0 holes, 0 sorries. **Gate: PASS (exit 0)**. See witness artifact at [`telemetry/gokujo-check-2026-10-06.json`](telemetry/gokujo-check-2026-10-06.json).
 
 ---
 
