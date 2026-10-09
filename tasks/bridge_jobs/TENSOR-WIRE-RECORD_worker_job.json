@@ -1,0 +1,48 @@
+{
+  "schema": "harmonic.gap-worker-job/1",
+  "task_cid": "baguqeeratensorwirerecord20261010pCwOrMrecord",
+  "task_id": "TENSOR-WIRE-RECORD",
+  "source_anchor": {
+    "file": "CrocSwap/integer-mult-bounds/research/climbed-48/witness.py",
+    "symbol": "run",
+    "layer": "combinatorial_tensor",
+    "algorithm": "SchonhageAlternatingCarrierOptimization"
+  },
+  "degree_qualifier": {
+    "type": "CarrierRoleReduction_and_WireWidth",
+    "support_degree": "W_certified = 176906915",
+    "storage_degree": "R23_role_saving = 95, R25_role_saving = 90",
+    "invariant": "total_wire_width R23_CERTIFIED R25_CERTIFIED + 377890 = total_wire_width R23_PR49 R25_PR49"
+  },
+  "target_rung": 3,
+  "current_rung": 3,
+  "artifacts": [
+    {
+      "lean_module": "SchonhageTensor",
+      "path": "formal/lean/SchonhageTensorMatch.lean",
+      "sha256": "4b5f8a0026e95bf0a7a3e7456d36e2f170425f7ee76a74bbf3c6e4e5db8d2d6c"
+    }
+  ],
+  "proved_theorems": [
+    "SchonhageTensor.wire_width_reduction",
+    "SchonhageTensor.certified_W_exact",
+    "SchonhageTensor.AB_strictly_improves",
+    "SchonhageTensor.kappa_strictly_improves",
+    "SchonhageTensor.kappa_gain_exceeds_prior_leap"
+  ],
+  "axiomatic_verification": {
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "admitted_theorems": 0,
+    "sorry_count": 0,
+    "status": "PASSED"
+  },
+  "runtime_trace_boundary": {
+    "target_layer": "combinatorial_tensor",
+    "ebpf_probe_point": "HopcroftKarp_AugmentingCarrier",
+    "trace_format": "harmonic.trace-v1"
+  }
+}

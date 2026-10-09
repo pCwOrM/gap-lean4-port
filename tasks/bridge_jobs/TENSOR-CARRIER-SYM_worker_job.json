@@ -1,0 +1,46 @@
+{
+  "schema": "harmonic.gap-worker-job/1",
+  "task_cid": "baguqeeratensorcarriersym20261010pCwOrMrecord",
+  "task_id": "TENSOR-CARRIER-SYM",
+  "source_anchor": {
+    "file": "scratch_mult_bounds/scripts/tensor_carrier_automorphism.g",
+    "symbol": "AnalyzeCarrierSymmetries",
+    "layer": "combinatorial_tensor",
+    "algorithm": "AutomorphismOrbitDecomposition"
+  },
+  "degree_qualifier": {
+    "type": "SupportDegree_vs_StorageDegree",
+    "support_degree": "LargestMovedPoint(act)",
+    "storage_degree": "Binomial(h, 3)",
+    "invariant": "matching_card_invariant"
+  },
+  "target_rung": 3,
+  "current_rung": 3,
+  "artifacts": [
+    {
+      "lean_module": "SchonhageCarrierSymmetry",
+      "path": "formal/lean/SchonhageTensorCarrierSymmetry.lean",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "proved_theorems": [
+    "SchonhageCarrierSymmetry.matching_card_invariant",
+    "SchonhageCarrierSymmetry.active_roles_invariant",
+    "SchonhageCarrierSymmetry.wire_width_orbit_invariant"
+  ],
+  "axiomatic_verification": {
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "admitted_theorems": 0,
+    "sorry_count": 0,
+    "status": "PASSED"
+  },
+  "runtime_trace_boundary": {
+    "target_layer": "combinatorial_tensor",
+    "ebpf_probe_point": "AnalyzeCarrierSymmetries",
+    "trace_format": "harmonic.trace-v1"
+  }
+}
