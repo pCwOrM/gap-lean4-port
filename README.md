@@ -7,6 +7,8 @@
 [![Zulip Chat](https://img.shields.io/badge/zulip-solfunmeme-blue.svg)](https://solfunmeme.zulipchat.com/)
 [![Mathlib 4](https://img.shields.io/badge/Mathlib_4-compatible-green.svg)](https://github.com/leanprover-community/mathlib4)
 [![Release](https://img.shields.io/badge/Release-v0.2.0-orange.svg)](https://github.com/pCwOrM/gap-lean4-port/releases/tag/v0.2.0)
+[![Phase 1 & 2](https://img.shields.io/badge/Phase%201%20%26%202-Verified%20%26%20Published%20(35%20Theorems)-brightgreen.svg)](#what-s-new-in-release-v020-phase-2-milestone)
+[![Phase 3 Status](https://img.shields.io/badge/Phase%203-Active%20Isolated%20Reserve-blueviolet.svg)](docs/PHASE3_STRATEGIC_ROADMAP.md)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23045504.svg)](https://doi.org/10.5281/zenodo.23045504)
 [![Concept DOI](https://img.shields.io/badge/Concept_DOI-10.5281%2Fzenodo.23045503-blue.svg)](https://doi.org/10.5281/zenodo.23045503)
 [![Verification](https://img.shields.io/badge/Verification-35_Theorems_%7C_0_sorry_%7C_0_admit-brightgreen.svg)](https://github.com/pCwOrM/gap-lean4-port)
@@ -18,6 +20,11 @@
 > 📄 **Official Published arXiv Preprint:** [arXiv:2609.38492 [cs.LO]](https://arxiv.org/abs/2609.38492) │ [Direct PDF](https://arxiv.org/pdf/2609.38492) │ DOI: [10.48550/arXiv.2609.38492](https://doi.org/10.48550/arXiv.2609.38492)  
 > *Title:* "Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions"  
 > *Authors:* Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı • *Zenodo Release DOI:* [10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)
+
+> [!NOTE]
+> ### 🛡️ Phased Verification Roadmap & Isolation Boundary
+> * **Phase 1 & Phase 2 (Completed & Published):** Fully verified across 35 machine-checked theorems with **0 `sorry`**, **0 `admit`**, and **0 external axioms** (covering Schreier-Sims stabilizer chains `lib/stbc.gi`, ordered partition refinements `lib/partitio.gi`, cyclotomic extension rings `lib/zmodnze.gi`, and constructive Bézout modular inverses `lib/zmodnz.gi`). Independently audited via `gokujo 1.0.0` (PR #5, Lake / Nix Lean 4.28.0) with witness report in [`telemetry/gokujo-check-2026-10-06.json`](telemetry/gokujo-check-2026-10-06.json). Formally published on [arXiv:2609.38492](https://arxiv.org/abs/2609.38492) and Zenodo ([DOI: 10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)).
+> * **Phase 3 (Active Isolated Reserve):** Permutation group orders, orbit-stabilizer systems, and conjugacy structures are strictly maintained in an **isolated staging reserve** ([`docs/PHASE3_STRATEGIC_ROADMAP.md`](docs/PHASE3_STRATEGIC_ROADMAP.md) & [`docs/PHASE3_PATTERN_LANGUAGE_SPEC.md`](docs/PHASE3_PATTERN_LANGUAGE_SPEC.md)) in active collaborative alignment with Mike DuPont ([@jmikedupont2](https://github.com/jmikedupont2)).
 
 This repository provides **machine-checked formal verifications in Lean 4 / Mathlib** for the core computational discrete algebra algorithms and representations of the [GAP System](https://www.gap-system.org/) (Groups, Algorithms, Programming).
 
