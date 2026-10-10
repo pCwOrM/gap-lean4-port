@@ -158,8 +158,24 @@ Correspondence: `ask@answerr.me` | `pcworm@pcworm.net`
 * **Zulip Channel:** Join real-time technical discussions on our Zulip realm at [solfunmeme.zulipchat.com](https://solfunmeme.zulipchat.com/) (Streams: `#general > greetings`, `#general > architecture`).
 * **Shared Terminology Standard:** Collaborative formal verification standard defined in [Shared Terminology Guide v2](docs/SharedTerminologyGuide.md) (DuPont–Dağlı Specification).
 * **Rung 0–5 Verification Ledger:** Formal accounting of chunks, anchors, pre/post/frame contracts, and degree qualifiers in [docs/RUNG_LEDGER.md](docs/RUNG_LEDGER.md).
-* **Distributed Architecture:** Dual-engine Lean 4 + eBPF/Nix architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+* **Distributed Architecture:** Dual-engine Lean 4 + eBPF/Nix architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) (Formalizing the joint Rung 0–5 verification ladder).
 * **Rung 0–5 Verification Bridge & Worker Packets:** Automated bridge generator ([tools/bridge_generator.py](tools/bridge_generator.py)) and consolidated witness report ([tasks/bridge_witness_report.json](tasks/bridge_witness_report.json)) generating turnkey `harmonic.gap-worker-job/1` packets for Mike DuPont's [`lean-worker`](https://github.com/meta-introspector/lean-worker) and [`aristotle-cli-rs`](https://github.com/meta-introspector/aristotle-cli-rs).
+
+---
+
+## 🏛️ Associated Formal Verification & Scientific Corpus
+
+This formal verification engine serves as the mathematical and algebraic pillar for the broader zero-storage procedural AI ecosystem:
+
+| Project / Repository | Focus & Domain | Formal Proofs & Benchmarks | Permanent Archive / DOI |
+| :--- | :--- | :--- | :--- |
+| **[`werr`](https://github.com/pCwOrM/werr)** | Zero-Memory System-1 Decision Engine | The Zero-VRAM Gauntlet, JevBench (Ref: 815FD9D8) | [arXiv:2609.25498](https://arxiv.org/abs/2609.25498) • [10.5281/zenodo.22939253](https://doi.org/10.5281/zenodo.22939253) |
+| **[`werracle`](https://github.com/pCwOrM/werracle)** | On-Chain EVM Reflex Oracle & Circuit Breaker | 40-Theorem Lean 4 Master Suite (Rungs 1–6, 0 sorry) | [arXiv:2609.30719](https://arxiv.org/abs/2609.30719) • [10.5281/zenodo.22942598](https://doi.org/10.5281/zenodo.22942598) |
+| **[`WerreduR`](https://github.com/jesmaat/WerreduR)** | Procedural Fractal Pedagogy (AIED) | 7 Lean 4 Horizon Theorems (0 sorry), ASSISTments & OULAD | [10.5281/zenodo.23128224 (v4.0)](https://doi.org/10.5281/zenodo.23128224) • [Concept: 10.5281/zenodo.22999420](https://doi.org/10.5281/zenodo.22999420) |
+| **[`WerrSoma`](https://github.com/Lexovian/WerrSoma)** | Whole-Brain Drosophila Connectome (158K Neurons) | Sub-4ms Reflex Flight, 6 Biophysical Protocols | [10.5281/zenodo.23072929 (v1.1)](https://doi.org/10.5281/zenodo.23072929) • [Concept: 10.5281/zenodo.22996625](https://doi.org/10.5281/zenodo.22996625) |
+| **[`gunes-dili`](https://github.com/pCwOrM/gunes-dili)** | Deterministic Morphology & 53 Holder Comma | Lean 4 DFA Uniqueness (Axioms 1–3, 0 sorry) | [10.5281/zenodo.23273006](https://doi.org/10.5281/zenodo.23273006) • [Concept: 10.5281/zenodo.23273005](https://doi.org/10.5281/zenodo.23273005) |
+| **[`answerr`](https://github.com/pCwOrM/answerr)** | Dual-Cognition Reflex AI & Live Workspace | Sub-0.5ms Hybrid Triage, Awesome Jev Ecosystem | [Production Portal: answerr.me](https://answerr.me) |
+| **[`MFNS`](https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis)** | Mandelbrot Fractal Neural Synthesis | Master Monograph, Papers 1–9 Roadmap | [10.5281/zenodo.22774934](https://doi.org/10.5281/zenodo.22774934) |
 
 ---
 
