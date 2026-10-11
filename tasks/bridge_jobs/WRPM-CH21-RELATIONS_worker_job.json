@@ -1,0 +1,62 @@
+{
+  "schema": "harmonic.gap-worker-job/1",
+  "task_cid": "baguqeerawrpmch21relations20261012pCwOrMformal",
+  "task_id": "WRPM-CH21-RELATIONS",
+  "source_anchor": {
+    "file": "Principia_Mathematica_vol1.pdf",
+    "chapter": "*21 General Theory of Relations",
+    "section": "Part I, Section C: Classes and Relations",
+    "authors": "Alfred North Whitehead and Bertrand Russell"
+  },
+  "degree_qualifier": {
+    "type": "ExtensionalDyadicRelationTheory",
+    "support_degree": "Section C Layer 3 Scaffolding",
+    "storage_degree": "16 Core Proved Theorems (0 sorry)",
+    "invariant": "(∀ x y, P x y ↔ Q x y) ↔ (relOf P = relOf Q)"
+  },
+  "target_rung": 3,
+  "current_rung": 3,
+  "artifacts": [
+    {
+      "lean_module": "Principia.Part1.Section3.Relations",
+      "path": "docs/principia_wrpm_formalization/Relations.lean",
+      "sha256": "1ac93cfa6cf7909ae6cc64e3986789c5c79ec730b8f58f08ec5bd28671212cca"
+    }
+  ],
+  "proved_theorems": [
+    "Principia.Part1.Section3.ast_21_02",
+    "Principia.Part1.Section3.ast_21_06",
+    "Principia.Part1.Section3.ast_21_15",
+    "Principia.Part1.Section3.ast_21_18",
+    "Principia.Part1.Section3.ast_21_191",
+    "Principia.Part1.Section3.ast_21_2",
+    "Principia.Part1.Section3.ast_21_21",
+    "Principia.Part1.Section3.ast_21_22",
+    "Principia.Part1.Section3.ast_21_23",
+    "Principia.Part1.Section3.ast_21_24",
+    "Principia.Part1.Section3.ast_21_25",
+    "Principia.Part1.Section3.ast_21_3",
+    "Principia.Part1.Section3.ast_21_31",
+    "Principia.Part1.Section3.ast_21_32",
+    "Principia.Part1.Section3.ast_21_34",
+    "Principia.Part1.Section3.ast_21_35",
+    "Principia.Part1.Section3.ast_21_4",
+    "Principia.Part1.Section3.ast_21_42",
+    "Principia.Part1.Section3.ast_21_43"
+  ],
+  "axiomatic_verification": {
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "admitted_theorems": 0,
+    "sorry_count": 0,
+    "status": "RUNG3_PROVED_ZERO_SORRY"
+  },
+  "lodging": {
+    "assigned_member": "pcworm",
+    "collaborator_member": "aristotle",
+    "lodge_table": "ChoirUnion-LodgeTable-v1"
+  }
+}
