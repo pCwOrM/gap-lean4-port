@@ -16,6 +16,11 @@
 [![lean-worker](https://img.shields.io/badge/Worker-lean--worker-9cf.svg)](https://github.com/meta-introspector/lean-worker)
 [![aristotle-cli-rs](https://img.shields.io/badge/Orchestrator-aristotle--cli--rs-orange.svg)](https://github.com/meta-introspector/aristotle-cli-rs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Sister Repo: Niemeier A8^3 Moonshine](https://img.shields.io/badge/Sister%20Repo-Niemeier%20A8%5E3%20Moonshine-024dad.svg)](https://github.com/pCwOrM/niemeier-a8-umbral-moonshine)
+[![Sister Repo: GDT Lean4](https://img.shields.io/badge/Sister%20Repo-GDT%20Lean4-024dad.svg)](https://github.com/pCwOrM/general-divisor-theorem)
+[![Sister Repo: WERR Core Monorepo](https://img.shields.io/badge/Sister%20Repo-WERR%20Core%20Monorepo-8b5cf6.svg)](https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis)
+[![Sister Repo: WerrSoma Connectome](https://img.shields.io/badge/Sister%20Repo-WerrSoma%20Connectome-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
+[![Sister Repo: WerreduR](https://img.shields.io/badge/Sister%20Repo-WerreduR%20v4.0-059669.svg)](https://github.com/jesmaat/WerreduR)
 
 > 📄 **Official Published arXiv Preprint:** [arXiv:2609.38492 [cs.LO]](https://arxiv.org/abs/2609.38492) │ [Direct PDF](https://arxiv.org/pdf/2609.38492) │ DOI: [10.48550/arXiv.2609.38492](https://doi.org/10.48550/arXiv.2609.38492)  
 > *Title:* "Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions"  
