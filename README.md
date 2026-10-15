@@ -17,7 +17,7 @@
 [![aristotle-cli-rs](https://img.shields.io/badge/Orchestrator-aristotle--cli--rs-orange.svg)](https://github.com/meta-introspector/aristotle-cli-rs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Sister Repo: Niemeier A8^3 Moonshine](https://img.shields.io/badge/Sister%20Repo-Niemeier%20A8%5E3%20Moonshine-024dad.svg)](https://github.com/pCwOrM/niemeier-a8-umbral-moonshine)
-[![Sister Repo: GDT Lean4](https://img.shields.io/badge/Sister%20Repo-GDT%20Lean4-024dad.svg)](https://github.com/pCwOrM/general-divisor-theorem)
+[![Sister Repo: GDT Lean4](https://img.shields.io/badge/Sister%20Repo-GDT%20Lean4%20(39%20Theorems%20%7C%200%20Sorry)-024dad.svg)](https://github.com/pCwOrM/general-divisor-theorem)
 [![Sister Repo: WERR Core Monorepo](https://img.shields.io/badge/Sister%20Repo-WERR%20Core%20Monorepo-8b5cf6.svg)](https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis)
 [![Sister Repo: WerrSoma Connectome](https://img.shields.io/badge/Sister%20Repo-WerrSoma%20Connectome-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
 [![Sister Repo: WerreduR](https://img.shields.io/badge/Sister%20Repo-WerreduR%20v4.0-059669.svg)](https://github.com/jesmaat/WerreduR)
