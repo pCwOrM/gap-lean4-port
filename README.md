@@ -15,7 +15,7 @@
 [![gokujo gate](https://img.shields.io/badge/gokujo_gate-PASS_(exit_0)-brightgreen.svg)](telemetry/gokujo-check-2026-10-06.json)
 [![lean-worker](https://img.shields.io/badge/Worker-lean--worker-9cf.svg)](https://github.com/meta-introspector/lean-worker)
 [![aristotle-cli-rs](https://img.shields.io/badge/Orchestrator-aristotle--cli--rs-orange.svg)](https://github.com/meta-introspector/aristotle-cli-rs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0_(Mathlib4_Standard)-blue.svg)](./LICENSE)
 [![Sister Repo: Niemeier A8^3 Moonshine](https://img.shields.io/badge/Sister%20Repo-Niemeier%20A8%5E3%20Moonshine-024dad.svg)](https://github.com/pCwOrM/niemeier-a8-umbral-moonshine)
 [![Sister Repo: GDT Lean4](https://img.shields.io/badge/Sister%20Repo-GDT%20Lean4%20(39%20Theorems%20%7C%200%20Sorry)-024dad.svg)](https://github.com/pCwOrM/general-divisor-theorem)
 [![Sister Repo: WERR Core Monorepo](https://img.shields.io/badge/Sister%20Repo-WERR%20Core%20Monorepo-8b5cf6.svg)](https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis)
