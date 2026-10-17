@@ -29,7 +29,7 @@
 
 > 📄 **Official Published arXiv Preprint:** [arXiv:2609.38492 [cs.LO]](https://arxiv.org/abs/2609.38492) │ [Direct PDF](https://arxiv.org/pdf/2609.38492) │ DOI: [10.48550/arXiv.2609.38492](https://doi.org/10.48550/arXiv.2609.38492)  
 > *Title:* "Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions"  
-> *Authors:* Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı • *Zenodo Release DOI:* [10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)
+> *Authors:* Volkan Dağlı, Dr. Zerrin Dağlı, Dağhan Dağlı • *Zenodo Release DOI:* [10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)
 
 > [!NOTE]
 > ### 🛡️ Phased Verification Roadmap & Isolation Boundary
