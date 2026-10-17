@@ -6,15 +6,15 @@
 [![Pillar IV: Schönhage Tensor](https://img.shields.io/badge/Pillar%20IV-Sch%C3%B6nhage%20Tensor%20(arXiv%3A2610.14263)-10b981.svg)](https://arxiv.org/abs/2610.14263)
 [![Lean 4 Certified](https://img.shields.io/badge/Lean%204-0%20Custom%20Axioms%20%7C%200%20Sorry-brightgreen.svg)](https://github.com/pCwOrM/general-divisor-theorem)
 
-**Authors:** Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı  
-**Foundational GDT Specification (Pillar I):** Dan Hawkley ([`@thinkthoughts`](https://github.com/thinkthoughts))  
+**Authors:** Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı 
+**Foundational GDT Specification (Pillar I):** Dan Hawkley ([`@thinkthoughts`](https://github.com/thinkthoughts)) 
 **Computing & Infrastructure:** Bekirhan Dağlı (ITouch Systems Research & Development)
 
 ---
 
-## 1. Architectural Lineage & Attribution (*"First Adab, Then Knowledge"*)
+## 1. Architectural Lineage & Attribution (*"Architectural Lineage & Attribution"*)
 
-A guiding principle of our research program is **rightful attribution before technical exposition (*Önce Edep, Sonra İlim*)**: every mathematical layer in a composite algorithm must be credited with exact quantitative transparency so that readers can distinguish what each foundational theorem contributes on its own and what emerges only through their multi-layer algebraic synthesis.
+A guiding principle of our research program is **rightful attribution before technical exposition **: every mathematical layer in a composite algorithm must be credited with exact quantitative transparency so that readers can distinguish what each foundational theorem contributes on its own and what emerges only through their multi-layer algebraic synthesis.
 
 Rather than relying on a single heuristic, the **VolkanBridge & Multi-Layer Algebraic Sieve Synthesis** unites **four independently machine-verified Lean 4 research tracks** from our open-science corpus:
 
