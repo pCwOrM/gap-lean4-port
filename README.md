@@ -42,6 +42,22 @@ This repository provides **machine-checked formal verifications in Lean 4 / Math
 
 Developed by the **ITouch Systems Formal Verification Lab** (Volkan Dagli [@pCwOrM] & Family).
 
+<p align="center">
+  <img src="assets/demo.gif" alt="GAP Lean 4 Port Build Demo" width="820" />
+</p>
+
+## ⚡ 30-Second Quick Start
+
+```bash
+git clone https://github.com/pCwOrM/gap-lean4-port.git && cd gap-lean4-port
+lake build
+```
+
+**Observed Output:**
+```text
+Build completed successfully. (35 theorems | 0 sorry | 0 admit | 0 external axioms)
+```
+
 ---
 
 ## What's New in Release v0.2.0 (Phase 2 Milestone)
