@@ -31,7 +31,7 @@
 
 > 📄 **Official Published arXiv Preprint:** [arXiv:2609.38492 [cs.LO]](https://arxiv.org/abs/2609.38492) │ [Direct PDF](https://arxiv.org/pdf/2609.38492) │ DOI: [10.48550/arXiv.2609.38492](https://doi.org/10.48550/arXiv.2609.38492)  
 > *Title:* "Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions"  
-> *Authors:* Volkan Dağlı, Dr. Zerrin Dağlı, Dağhan Dağlı • *Zenodo Release DOI:* [10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)
+> *Authors:* Volkan Dagli, Dr. Zerrin Dagli, Daghan Dagli • *Zenodo Release DOI:* [10.5281/zenodo.23045504](https://doi.org/10.5281/zenodo.23045504)
 
 > [!NOTE]
 > ### 🛡️ Phased Verification Roadmap & Isolation Boundary
@@ -175,7 +175,7 @@ Correspondence: `ask@answerr.me` | `pcworm@pcworm.net`
 ## Community, Collaboration & Standards
 
 * **Zulip Channel:** Join real-time technical discussions on our Zulip realm at [solfunmeme.zulipchat.com](https://solfunmeme.zulipchat.com/) (Streams: `#general > greetings`, `#general > architecture`).
-* **Shared Terminology Standard:** Collaborative formal verification standard defined in [Shared Terminology Guide v2](docs/SharedTerminologyGuide.md) (DuPont–Dağlı Specification).
+* **Shared Terminology Standard:** Collaborative formal verification standard defined in [Shared Terminology Guide v2](docs/SharedTerminologyGuide.md) (DuPont–Dagli Specification).
 * **Rung 0–5 Verification Ledger:** Formal accounting of chunks, anchors, pre/post/frame contracts, and degree qualifiers in [docs/RUNG_LEDGER.md](docs/RUNG_LEDGER.md).
 * **Distributed Architecture:** Dual-engine Lean 4 + eBPF/Nix architecture in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) (Formalizing the joint Rung 0–5 verification ladder).
 * **Rung 0–5 Verification Bridge & Worker Packets:** Automated bridge generator ([tools/bridge_generator.py](tools/bridge_generator.py)) and consolidated witness report ([tasks/bridge_witness_report.json](tasks/bridge_witness_report.json)) generating turnkey `harmonic.gap-worker-job/1` packets for Mike DuPont's [`lean-worker`](https://github.com/meta-introspector/lean-worker) and [`aristotle-cli-rs`](https://github.com/meta-introspector/aristotle-cli-rs).
